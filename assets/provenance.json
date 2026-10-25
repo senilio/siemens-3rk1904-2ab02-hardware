@@ -1,0 +1,999 @@
+{
+  "schema_version": 1,
+  "description": "Curated visual evidence. Hashes identify files, not experimental validity. Current source-file hashes and retained historical annotation hashes are separate. Full source archive is not bundled.",
+  "assets": [
+    {
+      "path": "assets/photos/side-b-full.jpg",
+      "kind": "original-photograph-copy",
+      "sha256": "f1366ed8dd049b21beed9802a8e2bcbaf07b63cc6a579aed78facde7dfcf8d25",
+      "source_filename": "PCB Side B - Full.jpg",
+      "current_source_file_sha256": "f1366ed8dd049b21beed9802a8e2bcbaf07b63cc6a579aed78facde7dfcf8d25",
+      "publication_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation"
+    },
+    {
+      "path": "assets/photos/side-a-full.jpg",
+      "kind": "original-photograph-copy",
+      "sha256": "32bc74f74d5697885ea9c48548585adde55bfeff2255ee2fd2dac3b01c663520",
+      "source_filename": "PCB Side A - Full.jpg",
+      "current_source_file_sha256": "32bc74f74d5697885ea9c48548585adde55bfeff2255ee2fd2dac3b01c663520",
+      "publication_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation"
+    },
+    {
+      "path": "assets/figures/capacitors-and-pair.png",
+      "kind": "annotated-figure-copy",
+      "sha256": "d1005c83845f498fbdc6bc33a43945ce1c9e2869eef86c767f6a5b27de781fd2",
+      "investigation_figure_filename": "03_capacitors_and_pair.png",
+      "source_filename": "2x electrolytics side B.jpg",
+      "current_source_file_sha256": "923365a971bee03a6e5b7db2643d8dcd0415e16ec06be05642ec67139176973d",
+      "recorded_source_sha256": null,
+      "historical_source_hash_status": "not-recorded",
+      "source_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation",
+      "investigation_annotation": {
+        "file": "03_capacitors_and_pair.png",
+        "source": "2x electrolytics side B.jpg",
+        "rotation_degrees": 0,
+        "crop_pixels": null,
+        "size": [
+          3130,
+          1763
+        ],
+        "labels": [
+          [
+            "C6 / upper can",
+            0.493,
+            0.365,
+            "L",
+            0.26
+          ],
+          [
+            "C5 / lower can",
+            0.488,
+            0.567,
+            "L",
+            0.52
+          ],
+          [
+            "Q3 / LEFT / 2Gs",
+            0.483,
+            0.707,
+            "L",
+            0.8,
+            "#5be1ff"
+          ],
+          [
+            "Q2 / RIGHT / YBs",
+            0.547,
+            0.714,
+            "R",
+            0.76,
+            "#5be1ff"
+          ],
+          [
+            "C7 / 10uF 16V",
+            0.548,
+            0.909,
+            "R",
+            0.93
+          ],
+          [
+            "HV-FET / power part",
+            0.908,
+            0.638,
+            "R",
+            0.47
+          ]
+        ]
+      }
+    },
+    {
+      "path": "assets/figures/q2-q3-pins.png",
+      "kind": "annotated-figure-copy",
+      "sha256": "dafdd298e93963e2ac141ee848e03f762cebf821f40fba75f3b8195ca8fc2a17",
+      "investigation_figure_filename": "04_pair_pins.png",
+      "source_filename": "2x 2Gs scope closeup.jpg",
+      "current_source_file_sha256": "062439d5c21aee4d36e654009fc67fa24a77892c13214d8d1d74668d2bcf306f",
+      "recorded_source_sha256": null,
+      "historical_source_hash_status": "not-recorded",
+      "source_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation",
+      "investigation_annotation": {
+        "file": "04_pair_pins.png",
+        "source": "2x 2Gs scope closeup.jpg",
+        "rotation_degrees": 0,
+        "crop_pixels": null,
+        "size": [
+          3130,
+          1763
+        ],
+        "labels": [
+          [
+            "Q3-1 / BASE (B)",
+            0.243,
+            0.404,
+            "L",
+            0.29,
+            "#5be1ff"
+          ],
+          [
+            "Q3-2 / EMITTER (E)",
+            0.243,
+            0.617,
+            "L",
+            0.655,
+            "#5be1ff"
+          ],
+          [
+            "Q3-3 / COLLECTOR (C)",
+            0.381,
+            0.505,
+            "L",
+            0.81,
+            "#5be1ff",
+            [
+              [
+                0.381,
+                0.79
+              ],
+              [
+                0.23,
+                0.79
+              ]
+            ]
+          ],
+          [
+            "Q2-2 / SOURCE (S)",
+            0.687,
+            0.403,
+            "R",
+            0.33,
+            "#94ee9e"
+          ],
+          [
+            "Q2-1 / GATE (G)",
+            0.687,
+            0.607,
+            "R",
+            0.65,
+            "#94ee9e"
+          ],
+          [
+            "Q2-3 / DRAIN (D)",
+            0.553,
+            0.511,
+            "R",
+            0.1,
+            "#94ee9e",
+            [
+              [
+                0.553,
+                0.235
+              ],
+              [
+                0.8,
+                0.235
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "path": "assets/figures/af-q1-pins.png",
+      "kind": "annotated-figure-copy",
+      "sha256": "a3c2d583222ee308653ebdc33a5cd148f44d86674289ec5d332e601defe42cd1",
+      "investigation_figure_filename": "06_af_and_q1_pins.png",
+      "source_filename": "Damage area side B 1.jpg",
+      "current_source_file_sha256": "ca8ddb28f6bac7f492fed249c4eadcade1553f47e77cf6456b0795490a7bdff6",
+      "recorded_source_sha256": null,
+      "historical_source_hash_status": "not-recorded",
+      "source_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation",
+      "investigation_annotation": {
+        "file": "06_af_and_q1_pins.png",
+        "source": "Damage area side B 1.jpg",
+        "rotation_degrees": 0,
+        "crop_pixels": [
+          300,
+          380,
+          950,
+          1530
+        ],
+        "size": [
+          2180,
+          2064
+        ],
+        "labels": [
+          [
+            "AF-5 / GND",
+            0.412,
+            0.362,
+            "L",
+            0.35,
+            "#5be1ff"
+          ],
+          [
+            "AF-4 / control",
+            0.414,
+            0.479,
+            "L",
+            0.485,
+            "#5be1ff"
+          ],
+          [
+            "AF-3 / LOGIC rail",
+            0.717,
+            0.336,
+            "R",
+            0.29,
+            "#5be1ff"
+          ],
+          [
+            "AF-2 / MCU rail",
+            0.717,
+            0.404,
+            "R",
+            0.405,
+            "#5be1ff"
+          ],
+          [
+            "AF-1 / MCU rail",
+            0.717,
+            0.476,
+            "R",
+            0.515,
+            "#5be1ff"
+          ],
+          [
+            "D3-L / banded end",
+            0.428,
+            0.647,
+            "L",
+            0.645,
+            "#ffdb58"
+          ],
+          [
+            "D3-R / other end",
+            0.773,
+            0.647,
+            "R",
+            0.645,
+            "#ffdb58"
+          ],
+          [
+            "Q1-2 / EMITTER (E)",
+            0.495,
+            0.807,
+            "L",
+            0.803,
+            "#94ee9e"
+          ],
+          [
+            "Q1-1 / BASE (B)",
+            0.717,
+            0.798,
+            "R",
+            0.8,
+            "#94ee9e"
+          ],
+          [
+            "Q1-3 / COLLECTOR (C)",
+            0.61,
+            0.93,
+            "L",
+            0.938,
+            "#94ee9e"
+          ]
+        ]
+      }
+    },
+    {
+      "path": "assets/figures/r51-resistors.png",
+      "kind": "annotated-figure-copy",
+      "sha256": "0e7b429b1560dfcfecdc407573d57d600f9860c1db117fcd1759d1dfb0565e87",
+      "investigation_figure_filename": "07_reverse_resistors.png",
+      "source_filename": "2x electrolytics side A.jpg",
+      "current_source_file_sha256": "93bbc56f3991fb2b7ae9562b22c096eb230d962f467e66fe2adf104ec58fa121",
+      "recorded_source_sha256": null,
+      "historical_source_hash_status": "not-recorded",
+      "source_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation",
+      "investigation_annotation": {
+        "file": "07_reverse_resistors.png",
+        "source": "2x electrolytics side A.jpg",
+        "rotation_degrees": 0,
+        "crop_pixels": null,
+        "size": [
+          2530,
+          2088
+        ],
+        "labels": [
+          [
+            "A-EL-TL / upper left",
+            0.438,
+            0.402,
+            "L",
+            0.36,
+            "#94ee9e"
+          ],
+          [
+            "A-EL-TR / upper right",
+            0.567,
+            0.409,
+            "R",
+            0.37,
+            "#94ee9e"
+          ],
+          [
+            "R51-T-L / left end",
+            0.336,
+            0.461,
+            "L",
+            0.45,
+            "#5be1ff"
+          ],
+          [
+            "R51-T-R / right end",
+            0.394,
+            0.462,
+            "R",
+            0.465,
+            "#5be1ff"
+          ],
+          [
+            "R51-B-L / left end",
+            0.336,
+            0.521,
+            "L",
+            0.52,
+            "#5be1ff"
+          ],
+          [
+            "R51-B-R / right end",
+            0.394,
+            0.522,
+            "R",
+            0.525,
+            "#5be1ff"
+          ],
+          [
+            "A-EL-BL / lower left",
+            0.44,
+            0.573,
+            "L",
+            0.595,
+            "#94ee9e"
+          ],
+          [
+            "A-EL-BR / lower right",
+            0.567,
+            0.574,
+            "R",
+            0.6,
+            "#94ee9e"
+          ]
+        ]
+      }
+    },
+    {
+      "path": "assets/figures/historical-c1-film-capacitor.png",
+      "kind": "annotated-figure-copy",
+      "sha256": "ef643186c035cf91e87e6aa94730c7c6df6a492fb50f2882c640a93675fb41f2",
+      "investigation_figure_filename": "10_c1_and_d2_pads.png",
+      "source_filename": "Damage area side B 2.jpg",
+      "current_source_file_sha256": "4ff3b4772fd32705fa9d967630206c5ecca871ce7021cbd652542775dc96eed7",
+      "recorded_source_sha256": null,
+      "historical_source_hash_status": "not-recorded",
+      "source_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation",
+      "investigation_annotation": {
+        "file": "10_c1_and_d2_pads.png",
+        "source": "Damage area side B 2.jpg",
+        "rotation_degrees": 0,
+        "crop_pixels": [
+          450,
+          1060,
+          1350,
+          2250
+        ],
+        "size": [
+          2380,
+          1882
+        ],
+        "labels": [
+          [
+            "C1-L / LEFT solder pad",
+            0.333,
+            0.681,
+            "L",
+            0.59,
+            "#5be1ff"
+          ],
+          [
+            "C1-R / RIGHT solder pad",
+            0.718,
+            0.656,
+            "R",
+            0.595,
+            "#5be1ff"
+          ],
+          [
+            "D2-L / LEFT metal end",
+            0.331,
+            0.906,
+            "L",
+            0.87,
+            "#94ee9e"
+          ],
+          [
+            "D2-R / RIGHT metal end",
+            0.68,
+            0.888,
+            "R",
+            0.91,
+            "#94ee9e"
+          ]
+        ]
+      }
+    },
+    {
+      "path": "assets/figures/c7-leads.png",
+      "kind": "annotated-figure-copy",
+      "sha256": "b5dff2f90dde5b850f5a72c599f5ab279d93e8d5e46344738d463fe8096e22f1",
+      "investigation_figure_filename": "15_c7_metal_leads.png",
+      "source_filename": "C7 close-up angled.jpg",
+      "current_source_file_sha256": "4f1d8cb7bde0d9dc46a3cbe68e1255eaf69631afc24754efb73d5e72f8b5bd65",
+      "recorded_source_sha256": "4f1d8cb7bde0d9dc46a3cbe68e1255eaf69631afc24754efb73d5e72f8b5bd65",
+      "historical_source_hash_status": "matched",
+      "source_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation",
+      "investigation_annotation": {
+        "file": "15_c7_metal_leads.png",
+        "source": "C7 close-up angled.jpg",
+        "rotation_degrees": 0,
+        "crop_pixels": null,
+        "size": [
+          2430,
+          1955
+        ],
+        "labels": [
+          [
+            "C7-T / TOP metal lead",
+            0.462,
+            0.27,
+            "L",
+            0.18,
+            "#5be1ff"
+          ],
+          [
+            "C7-B / BOTTOM metal lead",
+            0.445,
+            0.7,
+            "R",
+            0.715,
+            "#5be1ff"
+          ]
+        ],
+        "source_sha256": "4f1d8cb7bde0d9dc46a3cbe68e1255eaf69631afc24754efb73d5e72f8b5bd65"
+      }
+    },
+    {
+      "path": "assets/figures/cpu-capacitors.png",
+      "kind": "annotated-figure-copy",
+      "sha256": "661333c829be7d03d9fc1eafbc4ee47e7ab7822928e75a0b614973c0779a09f5",
+      "investigation_figure_filename": "16_cpu_capacitor_points.png",
+      "source_filename": "PCB Side B - Top.jpg",
+      "current_source_file_sha256": "e78ad4026066156ece8d6b1d31128980a3a1254d3b918b497d5cefdbc548d8b6",
+      "recorded_source_sha256": "e78ad4026066156ece8d6b1d31128980a3a1254d3b918b497d5cefdbc548d8b6",
+      "historical_source_hash_status": "matched",
+      "source_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation",
+      "investigation_annotation": {
+        "file": "16_cpu_capacitor_points.png",
+        "source": "PCB Side B - Top.jpg",
+        "rotation_degrees": 0,
+        "crop_pixels": [
+          1350,
+          890,
+          2050,
+          2040
+        ],
+        "size": [
+          2280,
+          2102
+        ],
+        "labels": [
+          [
+            "C9-L / LEFT metal end",
+            0.429,
+            0.122,
+            "L",
+            0.075,
+            "#ffdb58"
+          ],
+          [
+            "C9-R / RIGHT metal end",
+            0.743,
+            0.122,
+            "R",
+            0.1,
+            "#ffdb58"
+          ],
+          [
+            "C8-L / LEFT metal end",
+            0.65,
+            0.839,
+            "L",
+            0.8,
+            "#94ee9e"
+          ],
+          [
+            "C8-R / RIGHT metal end",
+            0.906,
+            0.839,
+            "R",
+            0.845,
+            "#94ee9e"
+          ]
+        ],
+        "source_sha256": "e78ad4026066156ece8d6b1d31128980a3a1254d3b918b497d5cefdbc548d8b6"
+      }
+    },
+    {
+      "path": "assets/figures/u1-max4162.png",
+      "kind": "annotated-figure-copy",
+      "sha256": "32dd34a80f01cbd4e7d2b0e014f0b252f13e8e68269463a6506cddbc0a6c178e",
+      "investigation_figure_filename": "19_u1_marking_and_pinout.png",
+      "source_filename": "AABX close up.jpg",
+      "current_source_file_sha256": "7020e1030e543732434752ac55374c74961e384d87d10c7b0035722058cf8a06",
+      "recorded_source_sha256": "7020e1030e543732434752ac55374c74961e384d87d10c7b0035722058cf8a06",
+      "historical_source_hash_status": "matched",
+      "source_rotation_degrees": 180,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation",
+      "investigation_annotation": {
+        "file": "19_u1_marking_and_pinout.png",
+        "source": "AABX close up.jpg",
+        "rotation_degrees": 180,
+        "crop_pixels": null,
+        "size": [
+          2480,
+          2022
+        ],
+        "labels": [
+          [
+            "U1-LT / pin 4, IN-\nInverting input",
+            0.27,
+            0.415,
+            "L",
+            0.325,
+            "#5be1ff"
+          ],
+          [
+            "U1-LB / pin 5, VDD\nPositive supply",
+            0.27,
+            0.62,
+            "L",
+            0.66,
+            "#5be1ff"
+          ],
+          [
+            "U1-RT / pin 3, IN+\nNoninverting input",
+            0.67,
+            0.38,
+            "R",
+            0.255,
+            "#94ee9e"
+          ],
+          [
+            "U1-RM / pin 2, VSS\nNegative supply\nNOT verified as GND",
+            0.67,
+            0.512,
+            "R",
+            0.455,
+            "#94ee9e"
+          ],
+          [
+            "U1-RB / pin 1, OUT\nAmplifier output",
+            0.67,
+            0.64,
+            "R",
+            0.685,
+            "#94ee9e"
+          ]
+        ],
+        "source_sha256": "7020e1030e543732434752ac55374c74961e384d87d10c7b0035722058cf8a06"
+      }
+    },
+    {
+      "path": "assets/figures/u2-u3-pins.png",
+      "kind": "annotated-figure-copy",
+      "sha256": "5bebd251d5c6b355bd1cd95bd18ab64accaccbb01054f21db937aa74e79cc0f6",
+      "investigation_figure_filename": "21_u2_u3_transistor_pins.png",
+      "source_filename": "U2 U3 closeup.jpg",
+      "current_source_file_sha256": "3e7fe927e9f518db1b3443f8ad06b2d15994cf39d603164e67f5c2614923e277",
+      "recorded_source_sha256": "3e7fe927e9f518db1b3443f8ad06b2d15994cf39d603164e67f5c2614923e277",
+      "historical_source_hash_status": "matched",
+      "source_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation",
+      "investigation_annotation": {
+        "file": "21_u2_u3_transistor_pins.png",
+        "source": "U2 U3 closeup.jpg",
+        "rotation_degrees": 0,
+        "crop_pixels": null,
+        "size": [
+          2880,
+          1575
+        ],
+        "labels": [
+          [
+            "U2-1 / base (B)\nTOP-RIGHT / pin 1",
+            0.355,
+            0.447,
+            "L",
+            0.21,
+            "#5be1ff",
+            [
+              [
+                0.355,
+                0.35
+              ],
+              [
+                0.1,
+                0.35
+              ]
+            ]
+          ],
+          [
+            "U2-2 / emitter (E)\nTOP-LEFT / pin 2",
+            0.192,
+            0.447,
+            "L",
+            0.425,
+            "#5be1ff"
+          ],
+          [
+            "U2-3 / collector (C)\nSINGLE BOTTOM / pin 3",
+            0.271,
+            0.601,
+            "L",
+            0.65,
+            "#5be1ff"
+          ],
+          [
+            "U3-2 / emitter (E)\nTOP-LEFT / pin 2",
+            0.652,
+            0.457,
+            "R",
+            0.21,
+            "#94ee9e",
+            [
+              [
+                0.652,
+                0.335
+              ],
+              [
+                0.985,
+                0.335
+              ]
+            ]
+          ],
+          [
+            "U3-1 / base (B)\nTOP-RIGHT / pin 1",
+            0.805,
+            0.438,
+            "R",
+            0.425,
+            "#94ee9e"
+          ],
+          [
+            "U3-3 / collector (C)\nSINGLE BOTTOM / pin 3",
+            0.71,
+            0.609,
+            "R",
+            0.65,
+            "#94ee9e"
+          ]
+        ],
+        "source_sha256": "3e7fe927e9f518db1b3443f8ad06b2d15994cf39d603164e67f5c2614923e277"
+      }
+    },
+    {
+      "path": "assets/figures/q4-pins.png",
+      "kind": "annotated-figure-copy",
+      "sha256": "982be196e713bd757e2c1104607f6af05b8c136d82e862a887185e13acdcf6f0",
+      "investigation_figure_filename": "24_q4_transistor_pins.png",
+      "source_filename": "2x electrolytics side B.jpg",
+      "current_source_file_sha256": "923365a971bee03a6e5b7db2643d8dcd0415e16ec06be05642ec67139176973d",
+      "recorded_source_sha256": "923365a971bee03a6e5b7db2643d8dcd0415e16ec06be05642ec67139176973d",
+      "historical_source_hash_status": "matched",
+      "source_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation",
+      "investigation_annotation": {
+        "file": "24_q4_transistor_pins.png",
+        "source": "2x electrolytics side B.jpg",
+        "rotation_degrees": 0,
+        "crop_pixels": [
+          3680,
+          1140,
+          4030,
+          1430
+        ],
+        "size": [
+          2480,
+          1372
+        ],
+        "labels": [
+          [
+            "Q4-2 / emitter (E)\nTOP-LEFT / pin 2",
+            0.22,
+            0.315,
+            "L",
+            0.22,
+            "#5be1ff"
+          ],
+          [
+            "Q4-1 / base (B)\nTOP-RIGHT / pin 1\nReference only",
+            0.6,
+            0.312,
+            "R",
+            0.2,
+            "#ffdb58"
+          ],
+          [
+            "Q4-3 / collector (C)\nSINGLE BOTTOM / pin 3",
+            0.39,
+            0.715,
+            "R",
+            0.695,
+            "#94ee9e"
+          ]
+        ],
+        "source_sha256": "923365a971bee03a6e5b7db2643d8dcd0415e16ec06be05642ec67139176973d"
+      }
+    },
+    {
+      "path": "assets/figures/reverse-passive-ends.png",
+      "kind": "annotated-figure-copy",
+      "sha256": "9829811e76fc1bb4a248a5290cb3adafb8c9312e3b9180fc4f02d31cbe21fef5",
+      "investigation_figure_filename": "26_reverse_passive_ends.png",
+      "source_filename": "Damage area side A.jpg",
+      "current_source_file_sha256": "120f457ff7447782d844612568f075713d895113ea5b0b1947d7c838279506b9",
+      "recorded_source_sha256": "120f457ff7447782d844612568f075713d895113ea5b0b1947d7c838279506b9",
+      "historical_source_hash_status": "matched",
+      "source_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation",
+      "investigation_annotation": {
+        "file": "26_reverse_passive_ends.png",
+        "source": "Damage area side A.jpg",
+        "rotation_degrees": 0,
+        "crop_pixels": [
+          1250,
+          1260,
+          2020,
+          2690
+        ],
+        "size": [
+          2380,
+          2524
+        ],
+        "labels": [
+          [
+            "RA-T-L / upper resistor\nLEFT metal end",
+            0.417,
+            0.268,
+            "L",
+            0.215,
+            "#5be1ff"
+          ],
+          [
+            "RA-T-R / upper resistor\nRIGHT metal end",
+            0.752,
+            0.268,
+            "R",
+            0.215,
+            "#5be1ff"
+          ],
+          [
+            "RA-M-L / middle resistor\nLEFT metal end",
+            0.417,
+            0.427,
+            "L",
+            0.405,
+            "#94ee9e"
+          ],
+          [
+            "RA-M-R / middle resistor\nRIGHT metal end",
+            0.752,
+            0.426,
+            "R",
+            0.405,
+            "#94ee9e"
+          ],
+          [
+            "RA-B-L / lower 222 part\nLEFT metal end",
+            0.417,
+            0.811,
+            "L",
+            0.77,
+            "#ffdb58"
+          ],
+          [
+            "RA-B-R / lower 222 part\nRIGHT metal end",
+            0.657,
+            0.812,
+            "R",
+            0.77,
+            "#ffdb58"
+          ]
+        ],
+        "source_sha256": "120f457ff7447782d844612568f075713d895113ea5b0b1947d7c838279506b9"
+      }
+    },
+    {
+      "path": "assets/figures/mcu-trace-side-a.png",
+      "kind": "annotated-figure-copy",
+      "sha256": "b35ef42988dfde4204b9224cfa4a2519aaf4171b01b0f5954627dc418f81fc2d",
+      "investigation_figure_filename": "29_side_a_mcu_trace.png",
+      "source_filename": "A-V6 trace.jpg",
+      "current_source_file_sha256": "98107e3778efd2496f9c1e7673f462bb88947804418d3894b5419c31f0071cf5",
+      "recorded_source_sha256": "98107e3778efd2496f9c1e7673f462bb88947804418d3894b5419c31f0071cf5",
+      "historical_source_hash_status": "matched",
+      "source_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation",
+      "investigation_annotation": {
+        "file": "29_side_a_mcu_trace.png",
+        "source": "A-V6 trace.jpg",
+        "rotation_degrees": 0,
+        "crop_pixels": null,
+        "size": [
+          2280,
+          2263
+        ],
+        "labels": [
+          [
+            "A-EL-BL / C5+\nKnown MCU rail\nOwner upper circle",
+            0.349,
+            0.096,
+            "L",
+            0.06,
+            "#94ee9e"
+          ],
+          [
+            "A-V9 / intermediate via\nOwner middle circle\nReported MCU continuity",
+            0.508,
+            0.469,
+            "R",
+            0.385,
+            "#5be1ff"
+          ],
+          [
+            "A-V6 / MCU point\nOwner bottom circle\nReported MCU continuity",
+            0.734,
+            0.853,
+            "R",
+            0.795,
+            "#5be1ff"
+          ]
+        ],
+        "source_sha256": "98107e3778efd2496f9c1e7673f462bb88947804418d3894b5419c31f0071cf5"
+      }
+    },
+    {
+      "path": "assets/figures/mcu-trace-side-b.png",
+      "kind": "annotated-figure-copy",
+      "sha256": "54098a1e4332609ff8b1426bd41e0f3ed4f6d19c1dc4027fd8d655e64a36abad",
+      "investigation_figure_filename": "30_side_b_mcu_trace.png",
+      "source_filename": "B-V6 other side.jpg",
+      "current_source_file_sha256": "e413781d8f4cadade211934022b2555b5c50ada3c2b32d6549cc2ddec90368c2",
+      "recorded_source_sha256": "e413781d8f4cadade211934022b2555b5c50ada3c2b32d6549cc2ddec90368c2",
+      "historical_source_hash_status": "matched",
+      "source_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation",
+      "investigation_annotation": {
+        "file": "30_side_b_mcu_trace.png",
+        "source": "B-V6 other side.jpg",
+        "rotation_degrees": 0,
+        "crop_pixels": null,
+        "size": [
+          2680,
+          1398
+        ],
+        "labels": [
+          [
+            "B-V3 / upper-left via\nOwner-marked MCU node",
+            0.21,
+            0.116,
+            "L",
+            0.035,
+            "#94ee9e"
+          ],
+          [
+            "B-V4 / via above C7\nOwner-marked MCU node",
+            0.371,
+            0.124,
+            "R",
+            0.05,
+            "#94ee9e"
+          ],
+          [
+            "B-V2 / traced via\nOwner marks counterpart\nof intermediate A-V9",
+            0.25,
+            0.364,
+            "L",
+            0.43,
+            "#5be1ff"
+          ]
+        ],
+        "source_sha256": "e413781d8f4cadade211934022b2555b5c50ada3c2b32d6549cc2ddec90368c2"
+      }
+    },
+    {
+      "path": "assets/figures/original-473k.png",
+      "kind": "annotated-figure-copy",
+      "sha256": "edfeb75debd06ac523e984392930597ae42c41d07537783ec880abce92381819",
+      "investigation_figure_filename": "31_original_473k_review.png",
+      "source_filename": "Old cap.jpg",
+      "current_source_file_sha256": "097ad15b3505d8ec59f32096a2ece16a7da7021d45b20ab02c8cd223fec64570",
+      "recorded_source_sha256": "bdebb578db5c1dafcd7ba4da8c1652e7e081429cab1dbe6ec76b96a644b70cee",
+      "historical_source_hash_status": "mismatch",
+      "source_rotation_degrees": 0,
+      "mirrored": false,
+      "hardware_state": "historical; not the final axial-inductor installation",
+      "investigation_annotation": {
+        "file": "31_original_473k_review.png",
+        "source": "Old cap.jpg",
+        "rotation_degrees": 0,
+        "crop_pixels": null,
+        "size": [
+          2680,
+          1730
+        ],
+        "labels": [
+          [
+            "C1 / original 473K\nBODY / marking review\nLikely 47 uH inductor",
+            0.515,
+            0.462,
+            "R",
+            0.44,
+            "#5be1ff"
+          ],
+          [
+            "Lower side of original\nDamage reported by owner\nWinding not identifiable here",
+            0.515,
+            0.552,
+            "L",
+            0.61,
+            "#ffdb58"
+          ],
+          [
+            "D2 / empty footprint\nDiode below original part\nOwner reports collateral damage",
+            0.51,
+            0.628,
+            "R",
+            0.725,
+            "#94ee9e"
+          ]
+        ],
+        "source_sha256": "bdebb578db5c1dafcd7ba4da8c1652e7e081429cab1dbe6ec76b96a644b70cee"
+      },
+      "provenance_note": "The annotation source hash differs from the current named source file. No matching historical file was found in the supplied archive; exact source version is unverified. Original annotation retained without changes."
+    }
+  ]
+}
